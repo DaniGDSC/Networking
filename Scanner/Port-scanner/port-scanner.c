@@ -6,6 +6,7 @@
 #include <sys/socket.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <sys/select.h>
 
 #define TIMEOUT 1 // Timeout for the connection attempt
 
